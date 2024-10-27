@@ -9,9 +9,9 @@
 import XCTest
 import HealthKit
 import LoopKit
+@testable import LoopKitUI
 import SwiftCharts
 import LoopAlgorithm
-@testable import LoopKitUI
 
 class PredictedGlucoseChartTests: XCTestCase {
 
