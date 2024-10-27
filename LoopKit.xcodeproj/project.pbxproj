@@ -278,6 +278,7 @@
 		84AAB1E52C347EEA0054D304 /* Environment+InvestigationalDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AAB1E42C347EEA0054D304 /* Environment+InvestigationalDevice.swift */; };
 		84CB9CDE2C0FD94B007210DD /* LoopCompletionFreshnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB9CDD2C0FD94B007210DD /* LoopCompletionFreshnessTests.swift */; };
 		84DF48892C33218100844FB1 /* MuteAllAppSoundsDurationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF48882C33217400844FB1 /* MuteAllAppSoundsDurationSheetView.swift */; };
+		84E8BBBE2CC9976E0078E6CF /* BulletedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8BBBD2CC9976E0078E6CF /* BulletedListView.swift */; };
 		84F295262B48CB4C00127C8E /* Callout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F295252B48CB4C00127C8E /* Callout.swift */; };
 		8907E35921A9D0EC00335852 /* GlucoseEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8907E35821A9D0EC00335852 /* GlucoseEntryTableViewController.swift */; };
 		89186C0524BEC9CA0003D0F3 /* SegmentedControlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89186C0424BEC9CA0003D0F3 /* SegmentedControlTableViewCell.swift */; };
@@ -676,6 +677,7 @@
 		C10DF6E02C2CA4270076DA10 /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10DF6DB2C2CA4270076DA10 /* PeripheralManager.swift */; };
 		C10DF6E32C2CB7FF0076DA10 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10DF6E22C2CB7FF0076DA10 /* OSLog.swift */; };
 		C10DF6E72C2CBA0D0076DA10 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10DF6E62C2CBA0D0076DA10 /* Data.swift */; };
+		C11A17482CB713C10019C517 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B41E10512C3D314600E186F7 /* Model.xcdatamodeld */; };
 		C13FF4262C5ADC8100FD2869 /* DiscoveredFob+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13FF4252C5ADC8100FD2869 /* DiscoveredFob+UI.swift */; };
 		C140E0522602908A000A4FF7 /* SettingsPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C140E0512602908A000A4FF7 /* SettingsPresentationMode.swift */; };
 		C1475B33264C30800040C7B1 /* LoopKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BA7154201E484D0058961E /* LoopKitUI.framework */; };
@@ -1308,6 +1310,7 @@
 		84AAB1E42C347EEA0054D304 /* Environment+InvestigationalDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+InvestigationalDevice.swift"; sourceTree = "<group>"; };
 		84CB9CDD2C0FD94B007210DD /* LoopCompletionFreshnessTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopCompletionFreshnessTests.swift; sourceTree = "<group>"; };
 		84DF48882C33217400844FB1 /* MuteAllAppSoundsDurationSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuteAllAppSoundsDurationSheetView.swift; sourceTree = "<group>"; };
+		84E8BBBD2CC9976E0078E6CF /* BulletedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletedListView.swift; sourceTree = "<group>"; };
 		84F295252B48CB4C00127C8E /* Callout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callout.swift; sourceTree = "<group>"; };
 		8907E35821A9D0EC00335852 /* GlucoseEntryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlucoseEntryTableViewController.swift; sourceTree = "<group>"; };
 		8907E35A21A9D1B200335852 /* SineCurveParametersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineCurveParametersTableViewController.swift; sourceTree = "<group>"; };
@@ -2267,6 +2270,7 @@
 				89CAB37024CB4DEC009EE3CE /* WarningView.swift */,
 				1D1065E3282DAEE500026A70 /* WebView.swift */,
 				84F295252B48CB4C00127C8E /* Callout.swift */,
+				84E8BBBD2CC9976E0078E6CF /* BulletedListView.swift */,
 				E0E99C382C0E80C200F9300C /* LoopCircleView.swift */,
 			);
 			path = Views;
@@ -3860,6 +3864,7 @@
 				893C9F8C2447DBD900CD4185 /* CardBuilder.swift in Sources */,
 				B4D4C20D25F95A8700DA809D /* DisplayGlucosePreference.swift in Sources */,
 				89BE75C524649C8100B145D9 /* NewScheduleItemEditor.swift in Sources */,
+				84E8BBBE2CC9976E0078E6CF /* BulletedListView.swift in Sources */,
 				89CAB36F24C9ECCA009EE3CE /* View+KeyboardAware.swift in Sources */,
 				E9086B2F24B3A5080062F5C8 /* ChartColorPalette.swift in Sources */,
 				89653C822473592600E1BAA5 /* CarbRatioScheduleEditor.swift in Sources */,
@@ -4426,6 +4431,7 @@
 				C17F39CB23CD2D2F00FA1113 /* DeviceLogEntryType.swift in Sources */,
 				A9E675AF22713F4700E25293 /* PumpEventType.swift in Sources */,
 				C1614F062AAFC36200F636E5 /* CgmEvent.swift in Sources */,
+				C11A17482CB713C10019C517 /* Model.xcdatamodeld in Sources */,
 				C1A174ED23DEAD6A0034DF11 /* DeviceLogEntry+CoreDataProperties.swift in Sources */,
 				A9E675B222713F4700E25293 /* GlucoseRangeSchedule.swift in Sources */,
 				A9E675B322713F4700E25293 /* PersistedPumpEvent.swift in Sources */,
@@ -5037,7 +5043,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 41;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -5493,7 +5499,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 41;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;

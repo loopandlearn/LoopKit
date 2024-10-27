@@ -133,8 +133,8 @@ public final class DoseStore {
         provenanceIdentifier: String = HKSource.default().bundleIdentifier,
         onReady: ((DoseStoreError?) -> Void)? = nil,
         test_currentDate: Date? = nil
-    ) {
-        self.insulinDeliveryStore = InsulinDeliveryStore(
+    ) async {
+        self.insulinDeliveryStore = await InsulinDeliveryStore(
             healthKitSampleStore: healthKitSampleStore,
             cacheStore: cacheStore,
             cacheLength: cacheLength,
@@ -381,7 +381,7 @@ extension DoseStore {
                     // If no error on purge, continue with creation
                 } else if isSameDate && previousValue.unitVolume == unitVolume {
                     // Ignore duplicate adds
-                    self.log.error("Ignoring duplicate reservoir value at %{public}@", String(describing: date))
+                    self.log.error("Ignoring duplicate reservoir value of %{public}@ at %{public}@", String(describing: unitVolume), String(describing: date))
                     return (previousValue, previousValue, self.areReservoirValuesValid)
                 }
             }
@@ -608,11 +608,11 @@ extension DoseStore {
         }
 
         let now = self.currentDate()
-        self.log.debug("addPumpEvents: lastReconciliation = %@ (%@ hours ago)", String(describing: lastReconciliation), String(describing: now.timeIntervalSince(lastReconciliation ?? now).hours))
+        self.log.default("addPumpEvents: lastReconciliation = %{public}@ (%{public}@ hours ago)", String(describing: lastReconciliation), String(describing: now.timeIntervalSince(lastReconciliation ?? now).hours))
 
         for event in events {
             if let dose = event.dose {
-                self.log.debug("Add %@, isMutable=%@", String(describing: dose), String(describing: event.dose?.isMutable))
+                self.log.default("Add dose: %{public}@", String(describing: dose))
             }
         }
 
@@ -834,14 +834,10 @@ extension DoseStore {
         }
 
         for dose in doses {
-            self.log.debug("Adding dose to insulin delivery store: %@", String(describing: dose))
+            self.log.default("Adding dose to insulin delivery store: %{public}@", String(describing: dose))
         }
 
-        try await withCheckedThrowingContinuation { continuation in
-            self.insulinDeliveryStore.addDoseEntries(doses, from: self.device, syncVersion: self.syncVersion, resolveMutable: resolveMutable) { (result) in
-                continuation.resume(with: result)
-            }
-        }
+        try await insulinDeliveryStore.addDoseEntries(doses, from: self.device, syncVersion: self.syncVersion, resolveMutable: resolveMutable)
     }
 
     /// Fetches a timeline of doses, filling in gaps between delivery changes with the scheduled basal delivery
@@ -853,9 +849,12 @@ extension DoseStore {
     ///   - result: The doses along with schedule basal
     private func getPumpEventDoseEntriesForSavingToInsulinDeliveryStore(startingAt: Date) async throws -> [DoseEntry] {
         // Can't store to insulin delivery store if we don't know end of reconciled range, or if we already have doses after the end
-        guard let endingAt = lastPumpEventsReconciliation, endingAt > startingAt else {
-            self.log.error("lastPumpEventsReconciliation of %@ < startingAt %@. (lastImmutableBasalEndDate after lastPumpEventsReconciliation???", String(describing: lastPumpEventsReconciliation), String(describing: startingAt))
+        guard let endingAt = lastPumpEventsReconciliation else {
+            self.log.error("Unable to fetch doses to store to insulin delivery store with missing lastPumpEventsReconciliation")
             return []
+        }
+        if endingAt < startingAt {
+            self.log.error("lastPumpEventsReconciliation of %{public}@ < startingAt %{public}@. (lastImmutableBasalEndDate after lastPumpEventsReconciliation!)", String(describing: lastPumpEventsReconciliation), String(describing: startingAt))
         }
 
         let doses = try await self.persistenceController.managedObjectContext.perform {
@@ -988,7 +987,7 @@ extension DoseStore {
             chronological: true
             ).compactMap({ $0.dose })
         let normalizedDoses = doses.filterDateRange(start, nil).reconciled()
-        return normalizedDoses.map { $0.trimmed(from: start) }
+        return normalizedDoses.compactMap { $0.trimmed(from: start) }
     }
 
 
@@ -1013,10 +1012,12 @@ extension DoseStore {
             matching: NSCompoundPredicate(orPredicateWithSubpredicates: [afterBasalStart, allBoluses]),
             chronological: true
         ).compactMap({ $0.dose })
-        // Ignore any doses which have not yet ended by the specified date.
+
+        // Ignore any doses that are not a bolus which have not yet ended by the specified date.
         // Also, since we are retrieving dosing history older than basalStart for
         // reconciliation purposes, we need to filter that out after reconciliation.
-        let normalizedDoses = doses.reconciled().filter({ $0.endDate <= end || $0.isMutable }).filter({ $0.startDate >= basalStart || $0.type == .bolus })
+        assert(!doses.contains(where: { $0.type == .bolus && $0.endDate > end && !$0.isMutable }), "There is a bolus that ends in the future and is immutable")
+        let normalizedDoses = doses.reconciled().filter({ $0.type == .bolus || $0.endDate <= end || $0.isMutable }).filter({ $0.startDate >= basalStart || $0.type == .bolus })
 
         return normalizedDoses
     }
@@ -1095,7 +1096,10 @@ extension DoseStore {
                     let endOfReservoirData = self.lastStoredReservoirValue?.endDate ?? .distantPast
                     let startOfReservoirData = reservoirDoses.first?.startDate ?? filteredStart
                     let mutableDoses = try self.getNormalizedMutablePumpEventDoseEntries(start: endOfReservoirData)
-                    doses = insulinDeliveryDoses.map({ $0.trimmed(to: startOfReservoirData) }) + reservoirDoses + mutableDoses.map({ $0.trimmed(from: endOfReservoirData) })
+                    doses =
+                        insulinDeliveryDoses.compactMap({ $0.trimmed(to: startOfReservoirData) }) +
+                        reservoirDoses +
+                        mutableDoses.compactMap({ $0.trimmed(from: endOfReservoirData) })
                 } else {
                     // Deduplicates doses by syncIdentifier
                     doses = insulinDeliveryDoses.appendedUnion(with: try self.getNormalizedPumpEventDoseEntries(start: filteredStart, end: end))
@@ -1221,40 +1225,29 @@ extension DoseStore {
         case failure(Error)
     }
     
-    public func executePumpEventQuery(fromQueryAnchor queryAnchor: QueryAnchor?, limit: Int, completion: @escaping (PumpEventQueryResult) -> Void) {
+    public func executePumpEventQuery(fromQueryAnchor queryAnchor: QueryAnchor?, limit: Int) async throws -> (QueryAnchor, [PersistedPumpEvent]) {
         var queryAnchor = queryAnchor ?? QueryAnchor()
         var queryResult = [PersistedPumpEvent]()
-        var queryError: Error?
 
         guard limit > 0 else {
-            completion(.success(queryAnchor, []))
-            return
+            return (queryAnchor, [])
         }
 
-        persistenceController.managedObjectContext.performAndWait {
+        try await persistenceController.managedObjectContext.perform {
             let storedRequest: NSFetchRequest<PumpEvent> = PumpEvent.fetchRequest()
 
             storedRequest.predicate = NSPredicate(format: "modificationCounter > %d", queryAnchor.modificationCounter)
             storedRequest.sortDescriptors = [NSSortDescriptor(key: "modificationCounter", ascending: true)]
             storedRequest.fetchLimit = limit
 
-            do {
-                let stored = try self.persistenceController.managedObjectContext.fetch(storedRequest)
-                if let modificationCounter = stored.max(by: { $0.modificationCounter < $1.modificationCounter })?.modificationCounter {
-                    queryAnchor.modificationCounter = modificationCounter
-                }
-                queryResult.append(contentsOf: stored.compactMap { $0.persistedPumpEvent })
-            } catch let error {
-                queryError = error
+            let stored = try self.persistenceController.managedObjectContext.fetch(storedRequest)
+            if let modificationCounter = stored.max(by: { $0.modificationCounter < $1.modificationCounter })?.modificationCounter {
+                queryAnchor.modificationCounter = modificationCounter
             }
+            queryResult.append(contentsOf: stored.compactMap { $0.persistedPumpEvent })
         }
 
-        if let queryError = queryError {
-            completion(.failure(queryError))
-            return
-        }
-
-        completion(.success(queryAnchor, queryResult))
+        return (queryAnchor, queryResult)
     }
 }
 

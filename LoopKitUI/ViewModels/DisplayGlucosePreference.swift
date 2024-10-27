@@ -23,7 +23,6 @@ public class DisplayGlucosePreference: ObservableObject {
         self.unit = displayGlucoseUnit
         self.rateUnit = rateUnit
         let formatter = QuantityFormatter(for: displayGlucoseUnit)
-        formatter.unitStyle = .short
         self.formatter = formatter
         self.minuteRateFormatter = QuantityFormatter(for: rateUnit)
         self.formatter.numberFormatter.notANumberSymbol = "–"
@@ -38,6 +37,14 @@ public class DisplayGlucosePreference: ObservableObject {
     /// - Returns: A localized string, or the numberFormatter's notANumberSymbol (default is "–")
     open func format(_ quantity: HKQuantity, includeUnit: Bool = true) -> String {
         return formatter.string(from: quantity, includeUnit: includeUnit) ?? self.formatter.numberFormatter.notANumberSymbol
+    }
+    
+    open func format(lowerQuantity: HKQuantity, higherQuantity: HKQuantity, includeUnit: Bool = true) -> String {
+        guard let lower = formatter.string(from: lowerQuantity, includeUnit: false), let higher = formatter.string(from: higherQuantity, includeUnit: includeUnit) else {
+            return self.formatter.numberFormatter.notANumberSymbol
+        }
+        
+        return "\(lower)-\(higher)"
     }
 
     /// Formats a glucose HKQuantity rate (in terms of mg/dL/min or mmol/L/min and unit as a localized string
@@ -56,7 +63,6 @@ extension DisplayGlucosePreference: DisplayGlucoseUnitObserver {
     public func unitDidChange(to displayGlucoseUnit: HKUnit) {
         self.unit = displayGlucoseUnit
         let formatter = QuantityFormatter(for: displayGlucoseUnit)
-        formatter.unitStyle = .short
         self.formatter = formatter
     }
 }
