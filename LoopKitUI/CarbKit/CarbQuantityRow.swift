@@ -38,6 +38,9 @@ public struct CarbQuantityRow: View {
         HStack(spacing: 2) {
             Text(title)
                 .foregroundColor(.primary)
+                .lineLimit(1)
+                .minimumScaleFactor(0.85)
+                .truncationMode(.tail)
                 .frame(maxWidth: .infinity, alignment: .leading)
             
             RowTextField(text: $carbInput, isFocused: $isFocused, maxLength: 5) {

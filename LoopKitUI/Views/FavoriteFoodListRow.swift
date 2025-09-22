@@ -9,11 +9,10 @@
 import SwiftUI
 import LoopKit
 import HealthKit
+// Thumbnail is passed in by the host app; LoopKitUI does not access storage.
 
 public struct FavoriteFoodListRow: View {
     @Environment(\.editMode) var editMode
-    
-    private let cornerRadius: CGFloat = 10
     
     let food: StoredFavoriteFood
     @Binding var foodToConfirmDeleteId: String?
@@ -25,7 +24,9 @@ public struct FavoriteFoodListRow: View {
     let absorptionTimeFormatter: DateComponentsFormatter
     let preferredCarbUnit: HKUnit
 
-    public init(food: StoredFavoriteFood, foodToConfirmDeleteId: Binding<String?>, onFoodTap: @escaping (StoredFavoriteFood) -> Void, onFoodDelete: @escaping (StoredFavoriteFood) -> Void, carbFormatter: QuantityFormatter, absorptionTimeFormatter: DateComponentsFormatter, preferredCarbUnit: HKUnit = .gram()) {
+    private let thumbnail: UIImage?
+
+    public init(food: StoredFavoriteFood, foodToConfirmDeleteId: Binding<String?>, onFoodTap: @escaping (StoredFavoriteFood) -> Void, onFoodDelete: @escaping (StoredFavoriteFood) -> Void, carbFormatter: QuantityFormatter, absorptionTimeFormatter: DateComponentsFormatter, preferredCarbUnit: HKUnit = .gram(), thumbnail: UIImage? = nil) {
         self.food = food
         self._foodToConfirmDeleteId = foodToConfirmDeleteId
         self.onTap = onFoodTap
@@ -33,6 +34,7 @@ public struct FavoriteFoodListRow: View {
         self.carbFormatter = carbFormatter
         self.absorptionTimeFormatter = absorptionTimeFormatter
         self.preferredCarbUnit = preferredCarbUnit
+        self.thumbnail = thumbnail
     }
     
     public var body: some View {
@@ -78,7 +80,22 @@ public struct FavoriteFoodListRow: View {
 extension FavoriteFoodListRow {
     private var foodCardContent: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text(food.title)
+            if let thumb = thumbnail {
+                HStack(spacing: 6) {
+                    Text(food.name)
+                    Image(uiImage: thumb)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 18, height: 18)
+                        .cornerRadius(4)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 4)
+                                .stroke(Color(UIColor.systemGray4), lineWidth: 0.5)
+                        )
+                }
+            } else {
+                Text(food.title)
+            }
             
             Text("\(food.carbsString(formatter: carbFormatter)) carbs, \(food.absorptionTimeString(formatter: absorptionTimeFormatter)) absorption")
                 .font(.footnote)

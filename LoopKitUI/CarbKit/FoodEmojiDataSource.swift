@@ -11,7 +11,7 @@ public func CarbAbsorptionInputController() -> EmojiInputController {
 
 
 final class FoodEmojiDataSource: EmojiDataSource {
-    private static let fast: [String] = {
+    fileprivate static let fast: [String] = {
         var fast = [
             "🍭", // lollipop
             "🧃", // juice box
@@ -49,7 +49,7 @@ final class FoodEmojiDataSource: EmojiDataSource {
         return fast
     }()
 
-    private static let medium: [String] = {
+    fileprivate static let medium: [String] = {
         var medium = [
             "🌮", // taco
             "🍟", // french fries
@@ -114,7 +114,7 @@ final class FoodEmojiDataSource: EmojiDataSource {
         return medium
     }()
 
-    private static let slow: [String] = {
+    fileprivate static let slow: [String] = {
         var slow = [
             "🍕", // pizza
             "🥑", // avocado
@@ -138,7 +138,7 @@ final class FoodEmojiDataSource: EmojiDataSource {
         return slow
     }()
 
-    private static let other: [String] = {
+    fileprivate static let other: [String] = {
         var other = [
             "🍶", // sake
             "🍾", // bottle with popping cork
@@ -194,4 +194,148 @@ final class FoodEmojiDataSource: EmojiDataSource {
             )
         ]
     }
+}
+
+public struct FoodEmojiKeywordLibrary {
+    /// Keyword → emoji mapping used by FoodFinder when inferring icons from text.
+    public static let keywordEmojiMap: [String: String] = {
+        let pairs: [(String, String)] = [
+            ("lollipop", "🍭"),
+            ("juice box", "🧃"),
+            ("juice", "🧃"),
+            ("soda", "🥤"),
+            ("soft drink", "🥤"),
+            ("candy", "🍬"),
+            ("sweet", "🍬"),
+            ("honey", "🍯"),
+            ("grape", "🍇"),
+            ("blueberry", "🫐"),
+            ("melon", "🍈"),
+            ("watermelon", "🍉"),
+            ("orange", "🍊"),
+            ("tangerine", "🍊"),
+            ("lemon", "🍋"),
+            ("banana", "🍌"),
+            ("pineapple", "🍍"),
+            ("apple", "🍎"),
+            ("green apple", "🍏"),
+            ("pear", "🍐"),
+            ("peach", "🍑"),
+            ("cherry", "🍒"),
+            ("strawberry", "🍓"),
+            ("kiwi", "🥝"),
+            ("mango", "🥭"),
+            ("corn", "🌽"),
+            ("popcorn", "🍿"),
+            ("rice cracker", "🍘"),
+            ("dango", "🍡"),
+            ("soft ice cream", "🍦"),
+            ("shaved ice", "🍧"),
+            ("birthday cake", "🎂"),
+            ("cake", "🎂"),
+            ("fortune cookie", "🥠"),
+            ("coffee", "☕️"),
+            ("tea", "🫖"),
+            ("taco", "🌮"),
+            ("french fries", "🍟"),
+            ("fried egg", "🍳"),
+            ("egg", "🍳"),
+            ("stew", "🍲"),
+            ("paella", "🥘"),
+            ("bento", "🍱"),
+            ("curry", "🍛"),
+            ("ramen", "🍜"),
+            ("noodle", "🍜"),
+            ("sweet potato", "🍠"),
+            ("shrimp", "🍤"),
+            ("oyster", "🦪"),
+            ("fish cake", "🍥"),
+            ("sandwich", "🥪"),
+            ("pita", "🥙"),
+            ("falafel", "🧆"),
+            ("tamale", "🫔"),
+            ("canned food", "🥫"),
+            ("dumpling", "🥟"),
+            ("takeout", "🥡"),
+            ("oden", "🍢"),
+            ("sushi", "🍣"),
+            ("tomato", "🍅"),
+            ("potato", "🥔"),
+            ("carrot", "🥕"),
+            ("hot pepper", "🌶"),
+            ("pepper", "🫑"),
+            ("bell pepper", "🫑"),
+            ("onion", "🧅"),
+            ("garlic", "🧄"),
+            ("cucumber", "🥒"),
+            ("salad", "🥗"),
+            ("leafy green", "🥬"),
+            ("greens", "🥬"),
+            ("mushroom", "🍄"),
+            ("broccoli", "🥦"),
+            ("cauliflower", "🥦"),
+            ("eggplant", "🍆"),
+            ("beans", "🫘"),
+            ("coconut", "🥥"),
+            ("bread", "🍞"),
+            ("croissant", "🥐"),
+            ("baguette", "🥖"),
+            ("bagel", "🥯"),
+            ("flatbread", "🫓"),
+            ("pretzel", "🥨"),
+            ("pancake", "🥞"),
+            ("waffle", "🧇"),
+            ("rice ball", "🍙"),
+            ("cooked rice", "🍚"),
+            ("milk", "🥛"),
+            ("custard", "🍮"),
+            ("pie", "🥧"),
+            ("ice cream", "🍨"),
+            ("doughnut", "🍩"),
+            ("donut", "🍩"),
+            ("cookie", "🍪"),
+            ("cupcake", "🧁"),
+            ("moon cake", "🥮"),
+            ("shortcake", "🍰"),
+            ("chocolate", "🍫"),
+            ("bubble tea", "🧋"),
+            ("pizza", "🍕"),
+            ("avocado", "🥑"),
+            ("peanut", "🥜"),
+            ("nut", "🌰"),
+            ("chestnut", "🌰"),
+            ("cheese", "🧀"),
+            ("fondue", "🫕"),
+            ("meat", "🍖"),
+            ("poultry leg", "🍗"),
+            ("chicken leg", "🍗"),
+            ("bacon", "🥓"),
+            ("burger", "🍔"),
+            ("hamburger", "🍔"),
+            ("hot dog", "🌭"),
+            ("burrito", "🌯"),
+            ("spaghetti", "🍝"),
+            ("pasta", "🍝"),
+            ("steak", "🥩"),
+            ("butter", "🧈"),
+            ("bone", "🦴"),
+            ("sake", "🍶"),
+            ("champagne", "🍾"),
+            ("wine", "🍷"),
+            ("cocktail", "🍸"),
+            ("beer", "🍺"),
+            ("cheers", "🍻"),
+            ("toast", "🥂"),
+            ("whiskey", "🥃"),
+            ("tropical drink", "🍹"),
+            ("mate", "🧉"),
+            ("pouring drink", "🫗")
+        ]
+
+        var map = [String: String]()
+        for (keyword, emoji) in pairs {
+            map[keyword] = emoji
+        }
+        return map
+    }()
 }
