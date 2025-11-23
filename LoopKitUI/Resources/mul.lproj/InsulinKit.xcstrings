@@ -494,7 +494,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "单位 活性胰岛素"
+            "value" : "U 活性胰岛素"
           }
         }
       }
@@ -584,7 +584,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No pump configured"
+            "value" : "Nicio pompă configurată"
           }
         },
         "ru" : {
@@ -980,7 +980,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "胰岛素容量"
+            "value" : "储药器"
           }
         }
       }
@@ -1190,7 +1190,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Non-Pump Insulin"
+            "value" : "Insulină din afara pompei"
           }
         },
         "ru" : {
@@ -1215,6 +1215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Non-Pump Insulin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "非泵胰岛素"
           }
         }
       }
