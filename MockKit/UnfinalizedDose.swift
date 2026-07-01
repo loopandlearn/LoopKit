@@ -40,7 +40,7 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
     var duration: TimeInterval
     let insulinType: InsulinType?
     let automatic: Bool?
-    let bolusReference: String?
+    let bolusReference: UUID?
 
     var finishTime: Date {
         get {
@@ -83,7 +83,7 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
         return units
     }
 
-    init(bolusAmount: Double, startTime: Date, duration: TimeInterval, insulinType: InsulinType? = nil, automatic: Bool = false, bolusReference: String? = nil) {
+    init(bolusAmount: Double, startTime: Date, duration: TimeInterval, insulinType: InsulinType? = nil, automatic: Bool = false, bolusReference: UUID? = nil) {
         self.doseType = .bolus
         self.units = bolusAmount
         self.startTime = startTime
@@ -219,7 +219,7 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
         }
         
         self.automatic = rawValue["automatic"] as? Bool
-        self.bolusReference = rawValue["bolusReference"] as? String
+        self.bolusReference = (rawValue["bolusReference"] as? String).flatMap { UUID(uuidString: $0) }
     }
 
     public var rawValue: RawValue {
@@ -247,7 +247,7 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
         }
 
         if let bolusReference = bolusReference {
-            rawValue["bolusReference"] = bolusReference
+            rawValue["bolusReference"] = bolusReference.uuidString
         }
 
         return rawValue

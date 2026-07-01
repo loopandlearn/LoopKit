@@ -187,7 +187,7 @@ public protocol PumpManager: DeviceManager {
     ///   - bolusReference: An opaque caller-supplied reference echoed back on the reported `DoseEntry`, or nil
     ///   - completion: A closure called after the command is complete
     ///   - error: An optional error describing why the command failed
-    func enactBolus(units: Double, activationType: BolusActivationType, bolusReference: String?, completion: @escaping (_ error: PumpManagerError?) -> Void)
+    func enactBolus(units: Double, activationType: BolusActivationType, bolusReference: UUID?, completion: @escaping (_ error: PumpManagerError?) -> Void)
 
     /// Cancels the current, in progress, bolus.
     ///
@@ -251,7 +251,7 @@ public extension PumpManager {
     /// Default implementation for pump managers that have not adopted bolus references. The opaque
     /// reference is dropped and the call is forwarded to `enactBolus(units:activationType:completion:)`,
     /// which keeps existing pump managers source compatible.
-    func enactBolus(units: Double, activationType: BolusActivationType, bolusReference: String?, completion: @escaping (_ error: PumpManagerError?) -> Void) {
+    func enactBolus(units: Double, activationType: BolusActivationType, bolusReference: UUID?, completion: @escaping (_ error: PumpManagerError?) -> Void) {
         enactBolus(units: units, activationType: activationType, completion: completion)
     }
 

@@ -469,7 +469,7 @@ public final class MockPumpManager: TestingPumpManager {
         enactBolus(units: units, activationType: activationType, bolusReference: nil, completion: completion)
     }
 
-    public func enactBolus(units: Double, activationType: BolusActivationType, bolusReference: String?, completion: @escaping (PumpManagerError?) -> Void) {
+    public func enactBolus(units: Double, activationType: BolusActivationType, bolusReference: UUID?, completion: @escaping (PumpManagerError?) -> Void) {
 
         logDeviceCommunication("enactBolus(\(units), \(activationType))")
 
