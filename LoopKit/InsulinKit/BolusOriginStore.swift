@@ -12,11 +12,31 @@
 
 import Foundation
 
+/// Where a user-initiated bolus came from. Autobolus / SMB is intentionally absent — that is already conveyed
+/// by the dose's `automatic` flag (and, in Trio, the SMB event type). `rawValue` is the machine token uploaded
+/// to Nightscout; `displayName` is the human label. Not every app uses every case (e.g. Loop has no bolus
+/// shortcut), which is fine.
+public enum BolusOrigin: String, Codable {
+    case remote
+    case watch
+    case manual
+    case shortcut
+
+    public var displayName: String {
+        switch self {
+        case .remote: return "Remote"
+        case .watch: return "Watch"
+        case .manual: return "Manual"
+        case .shortcut: return "Shortcut"
+        }
+    }
+}
+
 public final class BolusOriginStore {
     public static let shared = BolusOriginStore()
 
     private struct Entry: Codable {
-        let origin: String
+        let origin: BolusOrigin
         let createdAt: Date
     }
 
@@ -43,7 +63,7 @@ public final class BolusOriginStore {
     }
 
     /// Remember an origin under a freshly generated reference and return the reference to pass to the pump.
-    public func makeReference(for origin: String) -> UUID {
+    public func makeReference(for origin: BolusOrigin) -> UUID {
         let reference = UUID()
         sync {
             entries[reference.uuidString] = Entry(origin: origin, createdAt: Date())
@@ -63,13 +83,13 @@ public final class BolusOriginStore {
     }
 
     /// Resolve the origin recorded for a reported dose's `syncIdentifier`, if any.
-    public func origin(forSyncIdentifier syncIdentifier: String) -> String? {
+    public func origin(forSyncIdentifier syncIdentifier: String) -> BolusOrigin? {
         sync { entries[syncIdentifier]?.origin }
     }
 
     /// Resolve the origin directly by its request reference. Use this when the reference is still available on
     /// the reported dose (no `syncIdentifier` promotion needed).
-    public func origin(forReference reference: UUID) -> String? {
+    public func origin(forReference reference: UUID) -> BolusOrigin? {
         sync { entries[reference.uuidString]?.origin }
     }
 
