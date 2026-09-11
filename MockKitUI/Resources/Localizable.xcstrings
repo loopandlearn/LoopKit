@@ -16,6 +16,12 @@
             "value" : "%@"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -98,6 +104,12 @@
             "value" : "%1$@ konnte seit %2$@ nicht mehr mit der Simulatorpumpe kommunizieren.\n\nOhne die Kommunikation kann die App keine Befehle für die Insulinabgabe senden oder genaue, aktuelle Informationen über Dein aktives Insulin oder das abgegebene Insulin anzeigen."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ has been unable to communicate with the Simulator Pump since %@.\n\nWithout communication, the app cannot continue to send commands for insulin delivery or display accurate, recent information about your active insulin or the insulin being delivered."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -170,6 +182,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@."
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@."
@@ -300,6 +318,12 @@
             "value" : "%1$@%2$@%3$@"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@%2$@%3$@"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -424,6 +448,12 @@
             "value" : "%lld"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -536,6 +566,12 @@
             "value" : "2"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -594,6 +630,12 @@
             "value" : "5"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -647,6 +689,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50+"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "50+"
@@ -715,6 +763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eine Softwareaktualisierung wird empfohlen, um die %1$@-App weiterhin zu verwenden.\n\nGehe zu %2$@ Einstellungen > Softwareaktualisierung, um die neueste Version zu installieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A software update is recommended to continue using the %1$@ app.\n\nGo to %2$@ Settings > Software Update to install the latest version."
           }
         },
         "es" : {
@@ -798,6 +852,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aktivität"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activity"
           }
         },
         "es" : {
@@ -925,6 +985,12 @@
             "value" : "Bist Du sicher, dass Du diesen Dienst löschen möchtest?"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure you want to delete this service?"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1036,6 +1102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zurück"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back"
           }
         },
         "es" : {
@@ -1163,6 +1235,12 @@
             "value" : "Abbrechen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1282,6 +1360,12 @@
             "value" : "CGM-Einstellungen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CGM Settings"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1376,6 +1460,12 @@
             "value" : "CGM-Simulator"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CGM Simulator"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1432,6 +1522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lösche das Datum der letzten Versionsprüfungswarnung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear Last Version Check Alert Date"
           }
         },
         "es" : {
@@ -1508,6 +1604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kommunikationswiederherstellung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comms Recovery"
           }
         },
         "es" : {
@@ -1602,6 +1704,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tage"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "days"
           }
         },
         "es" : {
@@ -1723,6 +1831,12 @@
             "value" : "Dienst löschen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Service"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1841,6 +1955,12 @@
             "value" : "Gerätedetails"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Device Details"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1898,6 +2018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fertig"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
           }
         },
         "fr" : {
@@ -1969,6 +2095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fehler beim Fortfahren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error Resuming"
           }
         },
         "es" : {
@@ -2090,6 +2222,12 @@
             "value" : "Fehler beim Unterbrechen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error Suspending"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2208,6 +2346,12 @@
             "value" : "Geschätzter Wert"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estimated Reading"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2264,6 +2408,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fortsetzen des Insulins fehlgeschlagen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to Resume Insulin Delivery"
           }
         },
         "es" : {
@@ -2360,6 +2510,12 @@
             "value" : "Anhalten des Insulin fehlgeschlagen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to Suspend Insulin Delivery"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2418,6 +2574,12 @@
             "value" : "Hole Dir Hilfe zu Deinem CGM"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get help with your CGM"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2474,6 +2636,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Holen Dir Hilfe zu Deiner Pumpe"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get help with your pump"
           }
         },
         "fr" : {
@@ -2539,6 +2707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Historie"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "History"
           }
         },
         "es" : {
@@ -2653,6 +2827,12 @@
             "value" : "Wie soll der Simulator auf eine Versionsprüfung reagieren?"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How should the simulator respond to a version check?"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2729,6 +2909,12 @@
             "value" : "Insulin angehalten"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulin\nSuspended"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2792,6 +2978,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Insulintyp"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulin Type"
           }
         },
         "es" : {
@@ -2888,6 +3080,12 @@
             "value" : "Insulin%@Übrig"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulin%@Remaining"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2950,6 +3148,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letzter Wert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last Reading"
           }
         },
         "es" : {
@@ -3070,6 +3274,12 @@
             "value" : "Min"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3188,6 +3398,12 @@
             "value" : "Mock Versionsprüfung %@"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mock Version Check %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3258,6 +3474,12 @@
             "value" : "Keine Abgabe"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No\nDelivery"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3314,6 +3536,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Benachrichtigungseinstellungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notification Settings"
           }
         },
         "fr" : {
@@ -3382,6 +3610,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -3505,6 +3739,12 @@
             "value" : "Pumpe läuft ab in "
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pump expires in "
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3562,6 +3802,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Simulator wiederherstellen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recover Simulator"
           }
         },
         "es" : {
@@ -3652,6 +3898,12 @@
             "value" : "Pumpe ersetzen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Replace Pump"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3716,6 +3968,12 @@
             "value" : "Geplantes%@Basal"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scheduled%@Basal"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3778,6 +4036,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sensor läuft ab in "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sensor expires in "
           }
         },
         "es" : {
@@ -3886,6 +4150,12 @@
             "value" : "Simulatoreinstellungen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simulator Settings"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3931,6 +4201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quelle"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source"
           }
         },
         "es" : {
@@ -4009,6 +4285,12 @@
             "value" : "Sensor stoppen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop Sensor"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4072,6 +4354,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Angehalten am"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suspended At"
           }
         },
         "fr" : {
@@ -4138,6 +4426,12 @@
             "value" : "Temporäres%@Basal"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporary%@Basal"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4195,6 +4489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Update-Erinnerung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update Reminder"
           }
         },
         "es" : {
@@ -4271,6 +4571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Antwort der Versionsprüfung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version Check Response"
           }
         },
         "es" : {
@@ -4394,6 +4700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deine %1$@-App ist nicht mehr aktuell. Sie funktioniert weiterhin, aber wir empfehlen Dir, auf die neueste Version zu aktualisieren.\n\nGehen zu %2$@ Einstellungen > Softwareaktualisierung, um die Aktualisierung abzuschließen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your %1$@ app is out of date. It will continue to work, but we recommend updating to the latest version.\n\nGo to %2$@ Settings > Software Update to complete."
           }
         },
         "es" : {

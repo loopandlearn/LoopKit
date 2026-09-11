@@ -22,6 +22,12 @@
             "value" : "Bolus"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bolus"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -157,6 +163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kommunikationsproblem"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comms Issue"
           }
         },
         "es" : {
@@ -302,6 +314,12 @@
             "value" : "Insulin ausgesetzt"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulin Suspended"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -443,6 +461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kein Insulin"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Insulin"
           }
         },
         "es" : {
@@ -588,6 +612,12 @@
             "value" : "Pumpenbatterie leer"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pump Battery Dead"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -729,6 +759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pumpenfehler"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pump Error"
           }
         },
         "es" : {
@@ -880,6 +916,12 @@
             "value" : "Pumpe verstopft"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pump Occlusion"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1021,6 +1063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fortsetzen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resume"
           }
         },
         "es" : {
@@ -1166,6 +1214,12 @@
             "value" : "Unterbrechen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suspend"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1307,6 +1361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Temporäre Basalrate"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temp Basal"
           }
         },
         "es" : {
