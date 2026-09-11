@@ -21,6 +21,12 @@
             "value" : ""
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "new",
@@ -150,6 +156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : " höher "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " higher "
           }
         },
         "es" : {
@@ -293,6 +305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : " niedriger "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " lower "
           }
         },
         "es" : {
@@ -439,6 +457,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "-"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "-"
@@ -592,6 +616,12 @@
             "value" : "－"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "－"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -730,6 +760,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "–"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "–"
@@ -883,6 +919,12 @@
             "value" : "···"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "···"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1020,6 +1062,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@"
@@ -1167,6 +1215,12 @@
             "value" : "%@ carbs, %@ absorption"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ carbs, %@ absorption"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1305,6 +1359,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@."
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@."
@@ -1460,6 +1520,12 @@
             "value" : "%@%% von normalem Insulin"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@%% of normal insulin"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1609,6 +1675,12 @@
             "value" : "%@U"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@U"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1741,6 +1813,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ – %2$@ %3$@"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ – %2$@ %3$@"
@@ -1890,6 +1968,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ %2$@"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ %2$@"
@@ -2050,6 +2134,12 @@
             "value" : "%1$@ nimmt an, dass das abgegebene Insulin für 6 Stunden wirkt, um den Blutzucker zu senken. Diese Einstellung kann nicht geändert werden."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ assumes that the insulin it has delivered is actively working to lower your glucose for 6 hours. This setting cannot be changed."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2191,6 +2281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ oder Deine Sicherheitsgrenze, je nachdem, welcher Wert höher ist"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ or your Glucose Safety Limit, whichever is higher"
           }
         },
         "es" : {
@@ -2336,6 +2432,12 @@
             "value" : "%1$@ unterstützt 1 bis %2$@ Raten pro Tag."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ supports 1 to %2$@ rates per day."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2477,6 +2579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ IE"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ U"
           }
         },
         "es" : {
@@ -2622,6 +2730,12 @@
             "value" : "%1$@ IE verbleibend bei %2$@"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ units remaining at %2$@"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2754,6 +2868,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: <b>%2$@</b> %3$@"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@: <b>%2$@</b> %3$@"
@@ -2897,6 +3017,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@/min"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@/min"
@@ -3046,6 +3172,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@%2$@%3$@"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@%2$@%3$@"
@@ -3206,6 +3338,12 @@
             "value" : "%1$d Prozent abgeschlossen."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$d percent complete."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3343,6 +3481,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -3490,6 +3634,12 @@
             "value" : "%lld, "
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld, "
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3627,6 +3777,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🍽"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "🍽"
@@ -3775,6 +3931,12 @@
             "value" : "🍽 Vor dem Essen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🍽 Pre-Meal"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3912,6 +4074,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🏃‍♂️"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "🏃‍♂️"
@@ -4060,6 +4228,12 @@
             "value" : "🏃‍♂️ Training"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🏃‍♂️ Workout"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4201,6 +4375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Korrekturbereich ist anders als der Zielbereich und wird enger sein."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Correction Range is different. This will be a narrower range."
           }
         },
         "es" : {
@@ -4346,6 +4526,12 @@
             "value" : "Ein Wert von 0 IE/h heißt, dass Du in dieser Zeit kein Basalinsulin erhältst."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A value of 0 U/hr means you will be scheduled to receive no basal insulin."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4397,7 +4583,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Een waarde van 0 E/uur betekent dat u geen basale insuline ontvangt."
+            "value" : "Een waarde van 0 E/uur betekent dat je geen basale insuline ontvangt."
           }
         },
         "pl" : {
@@ -4487,6 +4673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resorptionsdauer"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Absorption Time"
           }
         },
         "es" : {
@@ -4638,6 +4830,12 @@
             "value" : "Dauer"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Active Duration"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4779,6 +4977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aktivität"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activity"
           }
         },
         "es" : {
@@ -4930,6 +5134,12 @@
             "value" : "Hinzufügen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5077,6 +5287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konto hinzufügen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Account"
           }
         },
         "es" : {
@@ -5229,6 +5445,12 @@
             "value" : "Kohlenhydrate hinzufügen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Carb Entry"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5378,6 +5600,12 @@
             "value" : "Afrezza"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afrezza"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5519,6 +5747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Möchtest Du wirklich alle Verlaufseinträge löschen?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure you want to delete all history entries?"
           }
         },
         "es" : {
@@ -5670,6 +5904,12 @@
             "value" : "Möchtest Du wirklich alle Reservoirwerte löschen?"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure you want to delete all reservoir values?"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5817,6 +6057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Authentisiere Dich zum Speichern der Therapieeinstellungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authenticate to save therapy setting"
           }
         },
         "es" : {
@@ -5968,6 +6214,12 @@
             "value" : "Zurück"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6115,6 +6367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basalrate"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basal Rates"
           }
         },
         "es" : {
@@ -6266,6 +6524,12 @@
             "value" : "Basal-, Bolus- und Korrekturinsulinmengen werden verringert um %@%%."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basal, bolus, and correction insulin dose amounts are decreased by %@%%."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6415,6 +6679,12 @@
             "value" : "Basal-, Bolus- und Korrekturinsulinmengen werden erhöht um %@%%."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basal, bolus, and correction insulin dose amounts are increased by %@%%."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6562,6 +6832,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basal-, Bolus- und Korrekturinsulinmengen bleiben unverändert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basal, bolus, and correction insulin dose amounts are unaffected."
           }
         },
         "es" : {
@@ -6719,6 +6995,12 @@
             "value" : "Abbrechen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6867,6 +7149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Override abbrechen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel Override"
           }
         },
         "es" : {
@@ -7018,6 +7306,12 @@
             "value" : "Temporäre Basalrate abbrechen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canceling Temp Basal"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7165,6 +7459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "KH-Verhältnis"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carb Ratios"
           }
         },
         "es" : {
@@ -7317,6 +7617,12 @@
             "value" : "Änderungen werden nur dann wirksam, wenn Du die Voreinstellung aktivierst. Die Standardeinstellungen von %@ werden nicht beeinflusst."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changes will only apply this time you enable the override. The default settings of %@ will not be affected."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7466,6 +7772,12 @@
             "value" : "Änderungen gelten nur, wenn Du die Voreinstellung aktivierst. Die Standardeinstellungen von %@ werden nicht beeinflusst."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changes will only apply this time you enable the preset. The default settings of %@ will not be affected."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7608,6 +7920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wähle eine längere Resorptionsdauer für größere Mahlzeiten oder welche die viel Fett und Proteine beinhalten. Dies ist eine Unterstützung für den Algorithmus und muss nicht genau sein."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose a longer absorption time for larger meals, or those containing fats and proteins. This is only guidance to the algorithm and need not be exact."
           }
         },
         "es" : {
@@ -7759,6 +8077,12 @@
             "value" : "Schließen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7901,6 +8225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "um %1$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "com.loudnate.CarbKit.COBDateLabel"
           }
         },
         "es" : {
@@ -8051,6 +8381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "seit %1$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "com.loudnate.CarbKit.totalDateLabel"
           }
         },
         "es" : {
@@ -8676,6 +9012,12 @@
             "value" : "Fertig."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completed."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8817,6 +9159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bedingung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condition"
           }
         },
         "es" : {
@@ -8968,6 +9316,12 @@
             "value" : "Bestätige die Einstellungen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm Setting"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9111,6 +9465,12 @@
             "value" : "Fortsetzen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9243,6 +9603,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correct the highlighted unsupported value(s)."
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Correct the highlighted unsupported value(s)."
@@ -9389,6 +9755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Korrekturbereich ist der Blutzuckerbereich, auf den Loop korrigieren soll."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correction range is the blood glucose range that you would like Loop to correct to."
           }
         },
         "es" : {
@@ -9540,6 +9912,12 @@
             "value" : "Korrekturwerte"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correction Values"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9681,6 +10059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Benutzerdefiniert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom"
           }
         },
         "es" : {
@@ -9832,6 +10216,12 @@
             "value" : "Benutzerdefinierter Override"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom Override"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9981,6 +10371,12 @@
             "value" : "Voreinstellung"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom Preset"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10123,6 +10519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Datum"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
           }
         },
         "es" : {
@@ -10272,6 +10674,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Löschen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
           }
         },
         "es" : {
@@ -10424,6 +10832,12 @@
             "value" : "Konto löschen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Account"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10571,6 +10985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle löschen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete All"
           }
         },
         "es" : {
@@ -10728,6 +11148,12 @@
             "value" : "Abgabelimits"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delivery Limits"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10877,6 +11303,12 @@
             "value" : "Abgabelimits sind Leitplanken für Deine Insulinabgabe."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delivery Limits are safety guardrails for your insulin delivery."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11018,6 +11450,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deaktiviere Voreinstellung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disable Preset"
           }
         },
         "es" : {
@@ -11163,6 +11601,12 @@
             "value" : "Fertig"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11298,6 +11742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dauer"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duration"
           }
         },
         "es" : {
@@ -11449,6 +11899,12 @@
             "value" : "Bearbeiten"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11591,6 +12047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "KH-Eintrag bearbeiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Carb Entry"
           }
         },
         "es" : {
@@ -11743,6 +12205,12 @@
             "value" : "Bearbeite Voreinstellung"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Override"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11891,6 +12359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die Bearbeitung wirkt sich nur auf die aktive Voreinstellung aus. Die Standardeinstellungen von %@ werden nicht beeinflusst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editing affects only the active override. The default settings of %@ will not be affected."
           }
         },
         "es" : {
@@ -12042,6 +12516,12 @@
             "value" : "Änderungen bleiben nur bestehen, bis die Voreinstellung deaktiviert wird. Die Standardeinstellungen von %@ werden nicht beeinflusst."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edits persist only until the preset is disabled. The default settings of %@ will not be affected."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12185,6 +12665,12 @@
             "value" : "Aktivieren"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12326,6 +12812,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aktiviere unbegrenzt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable Indefinitely"
           }
         },
         "es" : {
@@ -12477,6 +12969,12 @@
             "value" : "Aktiviert"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enabled"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12626,6 +13124,12 @@
             "value" : "Endzeit"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "End Time"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12767,6 +13271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wert für %1$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter %1$@ value"
           }
         },
         "es" : {
@@ -12911,6 +13421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eingabe der Einheiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a number of units"
           }
         },
         "es" : {
@@ -13063,6 +13579,12 @@
             "value" : "Eingabe Rate in Einheiten pro Stunde"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a rate in units per hour"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13210,6 +13732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ereignisverlauf"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Event History"
           }
         },
         "es" : {
@@ -13361,6 +13889,12 @@
             "value" : "Schnell"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13505,6 +14039,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiasp"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fiasp"
@@ -13658,6 +14198,12 @@
             "value" : "Essenstyp"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Food Type"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13799,6 +14345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bei schnell wirkendem Insulin geht %1$@ davon aus, dass es 6 Stunden lang wirkt. Du kannst aus %2$@ verschiedenen Modellen wählen, wie die App die Spitzenaktivität des Insulins misst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For fast acting insulin, %1$@ assumes it is actively working for 6 hours. You can choose from %2$@ different models for how the app measures the insulin’s peak activity."
           }
         },
         "es" : {
@@ -13944,6 +14496,12 @@
             "value" : "Wähle für diesen Bereich den spezifischen Blutzucker (oder Wertebereich) aus, den %1$@ bei der Anpassung Deines Basalinsulins anstreben soll."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For this range, choose the specific glucose value (or range of values) that you want %1$@ to aim for in adjusting your basal insulin."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14085,6 +14643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bekomme Unterstützung bei den Therapieeinstellungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get help with Therapy Settings"
           }
         },
         "es" : {
@@ -14230,6 +14794,12 @@
             "value" : "Zurück"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go Back"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14371,6 +14941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hohe Basalrate"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Basal Rate"
           }
         },
         "es" : {
@@ -14516,6 +15092,12 @@
             "value" : "Hohes Kohlenhydratverhältnis"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Carb Ratio"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14657,6 +15239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoher Korrekturwert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Correction Value"
           }
         },
         "es" : {
@@ -14802,6 +15390,12 @@
             "value" : "Hohe Blutzuckersicherheitsgrenze"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Glucose Safety Limit"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14943,6 +15537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hohe Insulinempfindlichkeit"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Insulin Sensitivity"
           }
         },
         "es" : {
@@ -15088,6 +15688,12 @@
             "value" : "Hohe maximale Basalrate"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Maximum Basal Rate"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15229,6 +15835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoher maximaler Bolus"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Maximum Bolus"
           }
         },
         "es" : {
@@ -15374,6 +15986,12 @@
             "value" : "Hoher Vor dem Essen Wert"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Pre-Meal Value"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15515,6 +16133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoher Trainings Wert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Workout Value"
           }
         },
         "es" : {
@@ -15660,6 +16284,12 @@
             "value" : "Historie"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "History"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15801,6 +16431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn diese Einstellungen für Dich gut aussehen, tippe auf Einstellungen speichern, um fortzufahren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If these settings look good to you, tap Save Settings to continue."
           }
         },
         "es" : {
@@ -15946,6 +16582,12 @@
             "value" : "Wenn Du bereits ein CGM verwendest, bist Du wahrscheinlich mit einem Zielbereich vertraut, den Du für Deinen Blutzuckeralarm verwendest, z. B. 70–180 mg/dL oder 90–200 mg/dL."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you've used a CGM before, you're likely familiar with target range as a wide range of values you'd like for your glucose notification alerts, such as 70-180 mg/dL or 90-200 mg/dL."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16086,6 +16728,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Info"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "info"
           }
         },
         "es" : {
@@ -16229,6 +16877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Insulin-Modell"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulin Model"
           }
         },
         "es" : {
@@ -16380,6 +17034,12 @@
             "value" : "Insulinempfindlichkeit"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulin Sensitivities"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16527,6 +17187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die Insulinempfindlichkeit beschreibt, wie Dein Blutzucker auf die Insulindosis von 1 Einheit reagiert. Kleinere Werte bedeuten, dass mehr Insulin verabreicht wird, wenn der Blutzucker über dem Ziel liegt. Zu kleine Werte können gefährlich niedrige Blutzuckerwerte verursachen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulin sensitivity describes how your blood glucose should respond to a 1 Unit dose of insulin. Smaller values mean more insulin will be given when above target. Values that are too small can cause dangerously low blood glucose."
           }
         },
         "es" : {
@@ -16678,6 +17344,12 @@
             "value" : "%1$@ unterbrochen: <b>%2$@</b> von %3$@ %4$@"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interrupted %1$@: <b>%2$@</b> of %3$@ %4$@"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16819,6 +17491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Es kann auf %1$@ eingestellt werden. Es kann bis zu %2$@ eingestellt werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It can be set as low as %1$@. It can be set as high as %2$@."
           }
         },
         "es" : {
@@ -16964,6 +17642,12 @@
             "value" : "Niedrige Basalrate"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Basal Rate"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17105,6 +17789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niedriges Kohlenhydratverhältnis"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Carb Ratio"
           }
         },
         "es" : {
@@ -17250,6 +17940,12 @@
             "value" : "Niedriger Korrekturwert"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Correction Value"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17391,6 +18087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niedrige Blutzuckersicherheitsgrenze"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Glucose Safety Limit"
           }
         },
         "es" : {
@@ -17536,6 +18238,12 @@
             "value" : "Niedrige Insulinempfindlichkeit"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Insulin Sensitivity"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17677,6 +18385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niedrige maximale Basalrate"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Maximum Basal Rate"
           }
         },
         "es" : {
@@ -17822,6 +18536,12 @@
             "value" : "Niedriger maximaler Bolus"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Maximum Bolus"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17963,6 +18683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niedriger Vor dem Essen Wert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Pre-Meal Value"
           }
         },
         "es" : {
@@ -18108,6 +18834,12 @@
             "value" : "Niedriger Trainings Wert"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Workout Value"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18251,6 +18983,12 @@
             "value" : "Lyumjev"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyumjev"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18389,6 +19127,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "max"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "max"
@@ -18542,6 +19286,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maximale Basalrate"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum Basal Rate"
           }
         },
         "es" : {
@@ -18699,6 +19449,12 @@
             "value" : "Die maximale Basalrate ist die maximale automatisch angepasste Basalrate, die %1$@ anwenden darf, um Deinen Korrekturbereich zu erreichen."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum Basal Rate is the maximum automatically adjusted basal rate that %1$@ is allowed to enact to help reach your correction range."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18841,6 +19597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maximaler Bolus"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum Bolus"
           }
         },
         "es" : {
@@ -18998,6 +19760,12 @@
             "value" : "Maximaler Bolus ist die höchste Bolusmenge, die Du %1$@ auf einmal erlaubst zu geben, um Kohlenhydrate abzudecken oder hohe Glukosewerte zu senken."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum Bolus is the highest bolus amount that you will allow %1$@ to recommend at one time to cover carbs or bring down high glucose."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19139,6 +19907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mittlere"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medium"
           }
         },
         "es" : {
@@ -19285,6 +20059,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "min"
@@ -19437,6 +20217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Weitere Info"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More Info"
           }
         },
         "es" : {
@@ -19594,6 +20380,12 @@
             "value" : "Name"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19743,6 +20535,12 @@
             "value" : "Neuer Eintrag"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Entry"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19884,6 +20682,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neue Voreinstellung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Preset"
           }
         },
         "es" : {
@@ -20035,6 +20839,12 @@
             "value" : "Kein Basal Insulin"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Basal Insulin"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20175,6 +20985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Es gibt hier nichts zu sehen!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing to See Here!"
           }
         },
         "es" : {
@@ -20318,6 +21134,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Andere"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other"
           }
         },
         "es" : {
@@ -20469,6 +21291,12 @@
             "value" : "Gesamtinsulinbedarf"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overall Insulin Needs"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20618,6 +21446,12 @@
             "value" : "Historie"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Override History"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20760,6 +21594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voreinstellungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Override Presets"
           }
         },
         "es" : {
@@ -20912,6 +21752,12 @@
             "value" : "Voreinstellungen der Overrides können im Abschnitt Konfiguration des Einstellungsbildschirms eingerichtet werden."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Override presets can be set up under the 'Configuration' section of the settings screen."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21056,6 +21902,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overrides"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Overrides"
@@ -21210,6 +22062,12 @@
             "value" : "Vor dem Essen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pre-Meal"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21359,6 +22217,12 @@
             "value" : "Vor dem Essen Wert"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pre-Meal Values"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21502,6 +22366,12 @@
             "value" : "Verschreibung"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prescription"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21643,6 +22513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VOREINSTELLUNGEN"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PRESETS"
           }
         },
         "es" : {
@@ -21794,6 +22670,12 @@
             "value" : "Verarbeite…"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Progressing."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21935,6 +22817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pumpen-Ereignis"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pump Event"
           }
         },
         "es" : {
@@ -22086,6 +22974,12 @@
             "value" : "Pumpe funktionsunfähig"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pump Inoperable"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22227,6 +23121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schnell wirkend – Erwachsene"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rapid-Acting – Adults"
           }
         },
         "es" : {
@@ -22376,6 +23276,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schnell wirkend – Kinder"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rapid-Acting – Children"
           }
         },
         "es" : {
@@ -22533,6 +23439,12 @@
             "value" : "Erforderlich"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Required"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22677,6 +23589,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reservoir"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reservoir"
@@ -22831,6 +23749,12 @@
             "value" : "Abgabe fortsetzen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resume Delivery"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22978,6 +23902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fortsetzen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resuming"
           }
         },
         "es" : {
@@ -23129,6 +24059,12 @@
             "value" : "Überprüfen und Speichern"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Review and Save Settings"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23272,6 +24208,12 @@
             "value" : "Überprüfe Deine Therapieeinstellungen. Wenn Du eine dieser Einstellungen bearbeiten möchtest, tippe auf Zurück, um zum Bearbeiten-Bildschirm zurückzukehren."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Review your therapy settings below. If you’d like to edit any of these settings, tap Back to go back to that screen."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23413,6 +24355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laufen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Running"
           }
         },
         "es" : {
@@ -23564,6 +24512,12 @@
             "value" : "Speichern"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23699,6 +24653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basalrate speichern?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Basal Rates?"
           }
         },
         "es" : {
@@ -23844,6 +24804,12 @@
             "value" : "Kohlenhydratverhältnis speichern?"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Carb Ratios?"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23985,6 +24951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Korrekturbereich(e) speichern?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Correction Range(s)?"
           }
         },
         "es" : {
@@ -24130,6 +25102,12 @@
             "value" : "Abgabelimits speichern?"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Delivery Limits?"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24271,6 +25249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blutzuckersicherheitsgrenze speichern?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Glucose Safety Limit?"
           }
         },
         "es" : {
@@ -24416,6 +25400,12 @@
             "value" : "Insulinempfindlichkeit speichern?"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Insulin Sensitivities?"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24559,6 +25549,12 @@
             "value" : "Vor dem Essen speichern?"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Pre-Meal Range?"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24700,6 +25696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trainingsbereich speichern?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Workout Range?"
           }
         },
         "es" : {
@@ -24851,6 +25853,12 @@
             "value" : "Speichere…"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saving..."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24993,6 +26001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "GEPLANTER OVERRIDE"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SCHEDULED OVERRIDE"
           }
         },
         "es" : {
@@ -25144,6 +26158,12 @@
             "value" : "GEPLANTE VOREINSTELLUNG"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SCHEDULED PRESET"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25284,6 +26304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ausgewählt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selected"
           }
         },
         "es" : {
@@ -25427,6 +26453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Langsam"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slow"
           }
         },
         "es" : {
@@ -25578,6 +26610,12 @@
             "value" : "Manche Benutzer wählen einen Wert, der dem 2-, 3- oder 4-fachen ihrer höchsten geplanten Basalrate entspricht."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Some users choose a value 2, 3, or 4 times their highest scheduled basal rate."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25719,6 +26757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Startzeit"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Time"
           }
         },
         "es" : {
@@ -25870,6 +26914,12 @@
             "value" : "Starten der temporären Basalrate"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting Temp Basal"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26019,6 +27069,12 @@
             "value" : "Abgegeben von %1$@, %2$@"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Submitted by %1$@, %2$@"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26162,6 +27218,12 @@
             "value" : "Unterstützung"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26303,6 +27365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abgabe unterbrechen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suspend Delivery"
           }
         },
         "es" : {
@@ -26454,6 +27522,12 @@
             "value" : "Unterbrechen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suspending"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26602,6 +27676,12 @@
             "value" : "Vorschaustatus wechseln"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch Preview State"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26740,6 +27820,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symbol"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Symbol"
@@ -26894,6 +27980,12 @@
             "value" : "Tippe „+“, um einen Benutzer definierte Voreinstellung zu erstellen."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap '+' to create a new custom preset."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27031,6 +28123,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap back to continue exploring the rest of the %@ interface."
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap back to continue exploring the rest of the %@ interface."
@@ -27185,6 +28283,12 @@
             "value" : "Klicken zum setzten"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to set"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27332,6 +28436,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zielbereich"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Target Range"
           }
         },
         "es" : {
@@ -27483,6 +28593,12 @@
             "value" : "Senke Dein Blutzuckerziel vor einer Mahlzeit vorübergehend ab, um Blutzuckerspitzen nach der Mahlzeit auszugleichen."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporarily lower your glucose target before a meal to impact post-meal glucose spikes."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27624,6 +28740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erhöhe Dein Blutzuckerziel vorübergehend vor, während oder nach körperlicher Aktivität, um das Risiko von Ereignissen mit niedrigem Blutzucker zu verringern."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporarily raise your glucose target before, during, or after physical activity to reduce the risk of low glucose events."
           }
         },
         "es" : {
@@ -27768,6 +28890,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vorübergehende Override"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporary Override"
           }
         },
         "es" : {
@@ -27918,6 +29046,12 @@
             "value" : "Test"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28059,6 +29193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "als Dein Korrekturbereich."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "than your Correction Range."
           }
         },
         "es" : {
@@ -28204,6 +29344,12 @@
             "value" : "Das aktuell ausgewählte schnell wirkende Insulinmodell wird als Standard verwendet."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The currently selected fast acting insulin model will be used as a default."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28345,6 +29491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das von Loop verwendete Legacy-Modell, das die Anpassung der Aktionsdauer ermöglicht."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The legacy model used by Loop, allowing customization of action duration."
           }
         },
         "es" : {
@@ -28497,6 +29649,12 @@
             "value" : "Die maximale Resorptionszeit beträgt %@"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The maximum absorption time is %@"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28645,6 +29803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die maximale Anzahl an Gramm ist %@ g"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The maximum allowed amount is %@ grams"
           }
         },
         "es" : {
@@ -28796,6 +29960,12 @@
             "value" : "Das schnell wirkende Erwachsenenmodell geht von einer maximalen Aktivität nach 75 Minuten aus."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The rapid-acting adult model assumes peak activity at 75 minutes."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28937,6 +30107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das schnell wirkende Kindermodell geht von einer Spitzenaktivität nach 65 Minuten aus."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The rapid-acting child model assumes peak activity at 65 minutes."
           }
         },
         "es" : {
@@ -29082,6 +30258,12 @@
             "value" : "Der Zeitplan beginnt um Mitternacht und darf keine Rate von 0 IE/h enthalten."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The schedule starts at midnight and cannot contain a rate of 0 U/hr."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29223,6 +30405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Therapieeinstellungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Therapy Settings"
           }
         },
         "es" : {
@@ -29368,6 +30556,12 @@
             "value" : "Dieses Modell geht von einer maximalen Insulinaktivität nach 19 Minuten aus."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This model assumes peak insulin activity at 19 minutes."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29509,6 +30703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dieses Modell geht von einer maximalen Insulinaktivität nach 55 Minuten aus."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This model assumes peak insulin activity at 55 minutes."
           }
         },
         "es" : {
@@ -29654,6 +30854,12 @@
             "value" : "Dieses Modell geht von einer maximalen Insulinaktivität nach 65 Minuten aus."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This model assumes peak insulin activity at 65 minutes."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29797,6 +31003,12 @@
             "value" : "Dieses Modell geht von einer maximalen Insulinaktivität nach 75 Minuten aus."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This model assumes peak insulin activity at 75 minutes."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29934,6 +31146,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This section of the %@ app is unavailable in this simulator."
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "This section of the %@ app is unavailable in this simulator."
@@ -30082,6 +31300,12 @@
             "value" : "Diese Einstellung bestimmt auch eine Sicherheitsgrenze für die automatische Dosierung. %1$@ begrenzt die automatische Abgabe, um die Menge an aktivem Insulin unter dem Doppelten Deines maximalen Bolus zu halten."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This setting will also determine a safety limit for automatic dosing. %1$@ will limit automatic delivery to keep the amount of active insulin below twice your maximum bolus."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30133,7 +31357,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deze instelling bepaalt ook een veiligheidslimiet voor automatische dosering. %1$@ beperkt de automatische toediening om de hoeveelheid actieve insuline onder tweemaal uw maximale bolus te houden."
+            "value" : "Deze instelling bepaalt ook een veiligheidslimiet voor automatische dosering. %1$@ beperkt de automatische toediening om de hoeveelheid actieve insuline onder tweemaal je maximale bolus te houden."
           }
         },
         "pl" : {
@@ -30223,6 +31447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ist in der Regel "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This will typically be"
           }
         },
         "es" : {
@@ -30368,6 +31598,12 @@
             "value" : "Zeit"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30509,6 +31745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeit in %1$@%2$@%3$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Times in %1$@%2$@%3$@"
           }
         },
         "es" : {
@@ -30659,6 +31901,12 @@
             "value" : "Zu implementieren"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To be implemented"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30800,6 +32048,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gesamt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total"
           }
         },
         "es" : {
@@ -30945,6 +32199,12 @@
             "value" : "IE/Tag"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U/day"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31087,6 +32347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "IE/h"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U/hour"
           }
         },
         "es" : {
@@ -31238,6 +32504,12 @@
             "value" : "Speichern fehlgeschlagen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to Save"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31380,6 +32652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einheiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Units"
           }
         },
         "es" : {
@@ -31531,6 +32809,12 @@
             "value" : "Unbekannt"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31665,6 +32949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nicht ausgewählt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unselected"
           }
         },
         "es" : {
@@ -31810,6 +33100,12 @@
             "value" : "Nicht gesetzt"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unset"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31950,6 +33246,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nicht unterstützt %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unsupported %@"
           }
         },
         "es" : {
@@ -32095,6 +33397,12 @@
             "value" : "Wert"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Value"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32236,6 +33544,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Überprüfen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verifying"
           }
         },
         "es" : {
@@ -32387,6 +33701,12 @@
             "value" : "Zeige Voreinstellung"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View Override"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32525,6 +33845,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Walsh"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Walsh"
@@ -32680,6 +34006,12 @@
             "value" : "Warnung"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warning"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32829,6 +34161,12 @@
             "value" : "Arbeite mit Deinem medizinischen Betreuer zusammen, um einen Wert zu finden, der höher ist als Deine höchste geplante Basalrate, aber so konservativ oder aggressiv, sodass Du Dich damit wohlfühlst."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Work with your healthcare provider to choose a value that is higher than your highest scheduled basal rate, but as conservative or aggressive as you feel comfortable."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32970,6 +34308,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Training"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workout"
           }
         },
         "es" : {
@@ -33121,6 +34465,12 @@
             "value" : "Trainingsbereich ist der Blutzuckerzielbereich, den %1$@ während der Aktivität anstreben soll. Dieser Bereich wird wirksam, wenn Du die Trainingsvoreinstellungstaste aktivierst."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workout Range is the glucose value or range of values you want %1$@ to target during activity. This range will be in effect when you activate the Workout Preset button."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33262,6 +34612,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trainingswerte"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workout Values"
           }
         },
         "es" : {
@@ -33407,6 +34763,12 @@
             "value" : "Mit ➕ kannst Du unterschiedliche Kohlenhydratverhältnisse für verschiedene Tageszeiten hinzufügen."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can add different carb ratios for different times of day by using the ➕."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33548,6 +34910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mit ➕ kannst Du unterschiedliche Insulinempfindlichkeiten für verschiedene Tageszeiten hinzufügen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can add different insulin sensitivities for different times of day by using the ➕."
           }
         },
         "es" : {
@@ -33693,6 +35061,12 @@
             "value" : "Mit ➕ kannst Du unterschiedliche Bereiche für verschiedene Tageszeiten hinzufügen."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can add different ranges for different times of day by using the ➕."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33834,6 +35208,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mit ➕ kannst Du Einträge für verschieden Tageszeiten hinzufügen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can add entries for different times of day by using the ➕."
           }
         },
         "es" : {
@@ -33985,6 +35365,12 @@
             "value" : "Du kannst wählen, wie %1$@ die Spitzenaktivität des schnell wirkenden Insulins gemäß einem dieser beiden Insulinmodelle misst."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can choose how %1$@ measures rapid acting insulin's peak activity according to one of these two insulin models."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34126,6 +35512,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du kannst eine Einstellung bearbeiten, indem Du auf eine beliebige Zeile tippst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can edit a setting by tapping into any line item."
           }
         },
         "es" : {
@@ -34271,6 +35663,12 @@
             "value" : "Du kannst die Einstellung bearbeiten, indem Du auf die Zeile tippst."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can edit the setting by tapping into the line item."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34412,6 +35810,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deine Basalrate ist die Anzahl der Einheiten pro Stunde, die Du verwenden möchtest, um Deinen Hintergrund-Insulinbedarf zu decken."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Basal Rate of insulin is the number of units per hour that you want to use to cover your background insulin needs."
           }
         },
         "es" : {
@@ -34557,6 +35961,12 @@
             "value" : "Deine Blutzuckersicherheitsgrenze"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "your Glucose Safety Limit"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34698,6 +36108,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dein medizinischer Betreuer kann Dir bei der Auswahl eines für Dich geeigneten Korrekturbereichs behilflich sein."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your healthcare provider can help you choose a Correction Range that's right for you."
           }
         },
         "es" : {
@@ -34843,6 +36259,12 @@
             "value" : "Der Insulinempfindlichkeitsfaktor (ISF) ist der Blutzuckerabfall, der von einer Einheit Insulin erwartet wird."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Insulin Sensitivity Factor (ISF) is the drop in glucose expected from one unit of insulin."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34984,6 +36406,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Bereich vor dem Essen sollte der Blutzucker sein, den %1$@ bis zum ersten Bissen Deiner Mahlzeit anstreben soll. Dieser Bereich wird wirksam, wenn Du die Voreinstellungstaste vor dem Essen aktivierst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Pre-Meal Range should be the glucose value (or range of values) you want %1$@ to target by the time you take your first bite of your meal. This range will be in effect when you activate the Pre-Meal Preset button."
           }
         },
         "es" : {
