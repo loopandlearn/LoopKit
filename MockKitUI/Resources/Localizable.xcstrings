@@ -1203,7 +1203,7 @@
       }
     },
     "Cancel" : {
-      "comment" : "The title of the cancel action in an action sheet",
+      "comment" : "Button title to cancel deleting the mock pump\nCancel button for mock version check action sheet\nThe title of the cancel action in an action sheet",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1441,6 +1441,7 @@
       }
     },
     "CGM Simulator" : {
+      "comment" : "Navigation bar title for CGM simulator settings",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1505,6 +1506,7 @@
       }
     },
     "Clear Last Version Check Alert Date" : {
+      "comment" : "Button title to clear the last version check alert date",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1581,6 +1583,7 @@
       }
     },
     "Comms Recovery" : {
+      "comment" : "Navigation bar title for delivery uncertainty recovery screen",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1741,6 +1744,7 @@
       }
     },
     "days" : {
+      "comment" : "Unit for days",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2008,6 +2012,7 @@
       }
     },
     "Device Details" : {
+      "comment" : "Navigation link to device details",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2441,6 +2446,7 @@
       }
     },
     "Estimated Reading" : {
+      "comment" : "Label for estimated reservoir reading",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2505,6 +2511,7 @@
       }
     },
     "Failed to Resume Insulin Delivery" : {
+      "comment" : "Alert title for resume insulin delivery error",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2599,6 +2606,7 @@
       }
     },
     "Failed to Suspend Insulin Delivery" : {
+      "comment" : "Alert title for suspend insulin delivery error",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2663,6 +2671,7 @@
       }
     },
     "Get help with your CGM" : {
+      "comment" : "Navigation link to get help with CGM",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2727,6 +2736,7 @@
       }
     },
     "Get help with your pump" : {
+      "comment" : "Navigation link to get help with pump",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2922,6 +2932,7 @@
       }
     },
     "How should the simulator respond to a version check?" : {
+      "comment" : "Message for mock version check action sheet",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3022,6 +3033,7 @@
       }
     },
     "Insulin\nSuspended" : {
+      "comment" : "Label shown when insulin delivery is suspended",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3104,6 +3116,7 @@
       }
     },
     "Insulin Remaining" : {
+      "extractionState" : "stale",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3168,7 +3181,7 @@
       }
     },
     "Insulin Type" : {
-      "comment" : "Controller title for insulin type selection screen",
+      "comment" : "Controller title for insulin type selection screen\nLabel for insulin type cell",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -3269,6 +3282,7 @@
       }
     },
     "Last Reading" : {
+      "comment" : "Label for last glucose reading value\nSection header for the last reading section",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3399,6 +3413,7 @@
       }
     },
     "min" : {
+      "comment" : "Unit for minutes",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3605,6 +3620,7 @@
       }
     },
     "No\nDelivery" : {
+      "comment" : "Label shown when there is no insulin delivery",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3669,6 +3685,7 @@
       }
     },
     "Notification Settings" : {
+      "comment" : "Navigation link to notification settings",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3888,6 +3905,7 @@
       }
     },
     "Pump expires in " : {
+      "comment" : "Text describing pump expiration time",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3959,6 +3977,65 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pomp gekoppeld"
+          }
+        }
+      }
+    },
+    "Pump Simulator" : {
+      "comment" : "Navigation bar title for pump simulator settings",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pumpe Simulator"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pumpensimulator"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simulateur de pompe"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simulatore Pompa"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pumpesimulator"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomp simulator"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symulator pompy"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Симулятор насоса"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "泵模拟器"
           }
         }
       }
@@ -4065,6 +4142,7 @@
       }
     },
     "Replace Pump" : {
+      "comment" : "Navigation link to replace pump",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4201,6 +4279,7 @@
       }
     },
     "Scheduled Basal" : {
+      "extractionState" : "stale",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4289,6 +4368,7 @@
       }
     },
     "Sensor expires in " : {
+      "comment" : "Text describing sensor expiration time",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4407,6 +4487,7 @@
       }
     },
     "Simulator Settings" : {
+      "comment" : "Navigation link to simulator settings",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4542,6 +4623,7 @@
       }
     },
     "Stop Sensor" : {
+      "comment" : "Navigation link to stop sensor",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4731,6 +4813,7 @@
       }
     },
     "Temporary Basal" : {
+      "extractionState" : "stale",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4908,6 +4991,7 @@
       }
     },
     "Version Check Response" : {
+      "comment" : "Title for mock version check action sheet",
       "localizations" : {
         "da" : {
           "stringUnit" : {
