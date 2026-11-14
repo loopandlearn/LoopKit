@@ -87,7 +87,6 @@ extension Collection where Element: ReservoirValue {
                         endDate: value.startDate,
                         value: volumeDrop,
                         unit: .units,
-                        decisionId: nil,
                         deliveredUnits: volumeDrop
                     ))
                 }
@@ -175,7 +174,7 @@ extension DoseEntry {
                 return self
             }
         }
-        return DoseEntry(type: type, startDate: startDate, endDate: endDate, value: value, unit: unit, decisionId: decisionId, deliveredUnits: resolvedUnits, description: description, syncIdentifier: syncIdentifier, scheduledBasalRate: scheduledBasalRate, insulinType: insulinType, automatic: automatic, isMutable: isMutable, wasProgrammedByPumpUI: wasProgrammedByPumpUI)
+        return DoseEntry(type: type, startDate: startDate, endDate: endDate, value: value, unit: unit, doseId: doseId, metadata: metadata, deliveredUnits: resolvedUnits, description: description, syncIdentifier: syncIdentifier, scheduledBasalRate: scheduledBasalRate, insulinType: insulinType, automatic: automatic, isMutable: isMutable, wasProgrammedByPumpUI: wasProgrammedByPumpUI)
     }
 }
 
@@ -307,7 +306,6 @@ extension Collection where Element == DoseEntry {
                             endDate: entryEnd,
                             value: curRate,
                             unit: .unitsPerHour,
-                            decisionId: nil,
                             syncIdentifier: syncIdentifier,
                             scheduledBasalRate: LoopQuantity(unit: .internationalUnitsPerHour, doubleValue: curRate),
                             automatic: nil,  // To be filled in later
@@ -330,7 +328,8 @@ extension Collection where Element == DoseEntry {
                 var newDose = dose
                 newDose.startDate = lastDate
 
-                if let endDate, dose.type == .suspend, idx+1 == self.count, dose.endDate < endDate {
+                // reconciled() leaves a suspend with no resume yet at zero length
+                if let endDate, dose.type == .suspend, idx+1 == self.count, dose.endDate <= dose.startDate, dose.endDate < endDate {
                     newDose.endDate = endDate
                 }
                 newEntries.append(newDose)
