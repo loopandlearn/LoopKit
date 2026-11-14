@@ -28,6 +28,12 @@
             "value" : "%@ Bereich"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Range"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -173,6 +179,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ U bolus failed"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ U bolus failed"
@@ -328,6 +340,12 @@
             "value" : "%1$@ U bolus may not have succeeded"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ U bolus may not have succeeded"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +495,12 @@
             "value" : "%1$@ gibt nur dann Basalinsulin ab und empfiehlt Bolusinsulin, wenn Dein Blutzucker voraussichtlich in den nächsten drei Stunden über diesem Grenzwert liegen wird."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ will deliver basal and recommend bolus insulin only if your glucose is predicted to be above this limit for the next three hours."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -621,6 +645,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@%2$@%3$@"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@%2$@%3$@"
@@ -781,6 +811,12 @@
             "value" : "Ein eingegebener Wert liegt über dem, was normalerweise für die meisten Menschen empfohlen wird."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A value you have entered is higher than what is typically recommended for most people."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -930,6 +966,12 @@
             "value" : "Ein eingegebener Wert liegt unter dem, was normalerweise für die meisten Menschen empfohlen wird."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A value you have entered is lower than what is typically recommended for most people."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1068,6 +1110,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afrezza"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Afrezza"
@@ -1222,6 +1270,12 @@
             "value" : "Afrezza ist ein ultraschnell wirkendes Mahlzeiteninsulin, das mit einem oralen Inhalator durch Deine Lungen eingeatmet wird und von MannKind hergestellt wird."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afrezza is an ultra rapid-acting mealtime insulin that is breathed in through your lungs using an oral inhaler and made by MannKind"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1360,6 +1414,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apidra"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apidra"
@@ -1514,6 +1574,12 @@
             "value" : "Apidra (Insulinglulisin)"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apidra (insulin glulisine)"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1663,6 +1729,12 @@
             "value" : "Apidra (Insulinglulisin) ist ein schnell wirkendes Insulin, das von Sanofi-aventis hergestellt wird"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1808,6 +1880,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization Denied"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Authorization Denied"
@@ -1962,6 +2040,12 @@
             "value" : "Basal"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basal"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2111,6 +2195,12 @@
             "value" : "Basalrate"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basal Rates"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2255,6 +2345,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bolus"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bolus"
@@ -2409,6 +2505,12 @@
             "value" : "KH-Verhältnis"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carb Ratios"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2560,6 +2662,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check your pump before retrying"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Check your pump before retrying"
@@ -3038,6 +3146,12 @@
             "value" : "Kommunikationsfehler"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Communication Failure"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3193,6 +3307,12 @@
             "value" : "Die Kommunikation wurde während der Insulinabgabe unterbrochen."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Communications interrupted during insulin delivery command."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3340,6 +3460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verbindungsfehler"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection Failure"
           }
         },
         "es" : {
@@ -3497,6 +3623,12 @@
             "value" : "Korrekturbereich"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correction Range"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3652,6 +3784,12 @@
             "value" : "Der Korrekturbereich ist der Blutzuckerbereich, den %1$@ bei der Anpassung Deines Basalinsulins anstrebt und Dir bei der Berechnung der Boli helfen soll."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correction Range is the glucose value (or range of values) that you want %1$@ to aim for in adjusting your basal insulin and helping you calculate your boluses."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3801,6 +3939,12 @@
             "value" : "Kritisches Update"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Critical Update"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3948,6 +4092,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abgabelimits"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delivery Limits"
           }
         },
         "es" : {
@@ -4105,6 +4255,12 @@
             "value" : "Gerät verweigert"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Device Refused"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4260,6 +4416,12 @@
             "value" : "Gerätestatus Kritisch"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Device Status Critical"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4407,6 +4569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gerätestatus Normal"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Device Status Normal"
           }
         },
         "es" : {
@@ -4558,6 +4726,12 @@
             "value" : "Gerätestatus Warnung"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Device Status Warning"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4705,6 +4879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stelle sicher, dass die Kohlenhydrate für den ausgewählten Zeitraum eingegeben wurden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensure carb data exists for the specified date"
           }
         },
         "es" : {
@@ -4862,6 +5042,12 @@
             "value" : "Fällt"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falling"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5015,6 +5201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fällt schnell"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falling fast"
           }
         },
         "es" : {
@@ -5172,6 +5364,12 @@
             "value" : "Fällt sehr schnell"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falling very fast"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5316,6 +5514,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiasp"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fiasp"
@@ -5476,6 +5680,12 @@
             "value" : "Fiasp ist eine von Novo Nordisk hergestellte Insulin aspart-Variante zur Mahlzeit mit dem Zusatz von Nicotinamid (Vitamin B3)."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiasp is a mealtime insulin aspart formulation with the addition of nicotinamide (vitamin B3) made by Novo Nordisk"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5623,6 +5833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gleichbleibend"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flat"
           }
         },
         "es" : {
@@ -5780,6 +5996,12 @@
             "value" : "Bei schnell wirkendem Insulin geht %1$@ davon aus, dass es 6 Stunden lang wirkt. Du kannst aus verschiedenen Modellen für die Spitzenaktivität wählen."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For fast acting insulin, %1$@ assumes it is actively working for 6 hours. You can choose from different models for the peak activity."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5921,6 +6143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "g/IE"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "g/U"
           }
         },
         "es" : {
@@ -6078,6 +6306,12 @@
             "value" : "Blutzuckersicherheitsgrenze"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glucose Safety Limit"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6225,6 +6459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stunde"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hour"
           }
         },
         "es" : {
@@ -6376,6 +6616,12 @@
             "value" : "Stunden"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hours"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6514,6 +6760,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Humalog"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Humalog"
@@ -6668,6 +6920,12 @@
             "value" : "Humalog (Insulin Lispro)"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Humalog (insulin lispro)"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6817,6 +7075,12 @@
             "value" : "Humalog (Insulin Lispro) ist ein schnell wirkendes Insulin, das von Eli Lilly hergestellt wird"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Humalog (insulin lispro) is a rapid-acting insulin made by Eli Lilly"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6964,6 +7228,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Insulin-Modell"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulin Model"
           }
         },
         "es" : {
@@ -7121,6 +7391,12 @@
             "value" : "Insulinempfindlichkeit"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulin Sensitivities"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7274,6 +7550,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fehlerhafte Konfiguration"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid Configuration"
           }
         },
         "es" : {
@@ -7432,6 +7714,12 @@
             "value" : "It is safe to retry"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is safe to retry"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7570,6 +7858,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyumjev"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lyumjev"
@@ -7724,6 +8018,12 @@
             "value" : "Lyumjev ist eine Insulin-Lispro-Variante zur Mahlzeit mit dem Zusatz von Citrat und Treprostinil, hergestellt von Eli Lilly"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyumjev is a mealtime insulin lispro formulation with the addition of citrate and treprostinil made by Eli Lilly"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7873,6 +8173,12 @@
             "value" : "Stelle sicher, dass sich Deine Pumpe in Kommunikationsreichweite Deines Telefons befindet."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Make sure your pump is within communication range of your phone."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8020,6 +8326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maximale Basalrate"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum Basal Rate"
           }
         },
         "es" : {
@@ -8177,6 +8489,12 @@
             "value" : "Die maximale Basalrate ist die höchste temporäre Basalrate, die %1$@ einstellen darf."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum Basal Rate is the highest temporary basal rate %1$@ is allowed to set."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8324,6 +8642,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maximaler Bolus"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum Bolus"
           }
         },
         "es" : {
@@ -8481,6 +8805,12 @@
             "value" : "Maximaler Bolus ist die höchste Bolusmenge, die Du auf einmal abgeben kannst, um Kohlenhydrate abzudecken oder hohe Blutzuckerwerte zu senken."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum Bolus is the highest bolus amount you can deliver at one time to cover carbs or bring down high glucose."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8619,6 +8949,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mg/dL/min"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "mg/dL/min"
@@ -8767,6 +9103,12 @@
             "value" : "mg/dL/IE"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mg/dL/U"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8911,6 +9253,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mmol/L"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "mmol/L"
@@ -9065,6 +9413,12 @@
             "value" : "mmol/L/min"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mmol/L/min"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9206,6 +9560,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "mmol/L/IE"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mmol/L/U"
           }
         },
         "es" : {
@@ -9363,6 +9723,12 @@
             "value" : "Erfordert Aufmerksamkeit"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Needs Attention"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9518,6 +9884,12 @@
             "value" : "Kein Update"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Update"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9667,6 +10039,12 @@
             "value" : "Keine Werte gefunden"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No values found"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9811,6 +10189,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novolog"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novolog"
@@ -9965,6 +10349,12 @@
             "value" : "Novolog (Insulin Aspart)"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novolog (insulin aspart)"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10114,6 +10504,12 @@
             "value" : "NovoLog (Insulin Aspart) ist ein schnell wirkendes Insulin von Novo Nordisk"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NovoLog (insulin aspart) is a rapid-acting insulin made by Novo Nordisk"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10258,6 +10654,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -10418,6 +10820,12 @@
             "value" : "Mindestens einer der eingegebenen Werte liegt außerhalb dessen, was normalerweise für die meisten Menschen empfohlen wird."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One or more of the values you have entered is outside of what is typically recommended for most people."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10563,6 +10971,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please re-enable sharing in Health"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please re-enable sharing in Health"
@@ -10715,6 +11129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vor dem Essen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pre-Meal"
           }
         },
         "es" : {
@@ -10872,6 +11292,12 @@
             "value" : "Empfohlenes Update"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended Update"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11021,6 +11447,12 @@
             "value" : "Wiederaufgenommen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resumed"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11168,6 +11600,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Steigt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rising"
           }
         },
         "es" : {
@@ -11325,6 +11763,12 @@
             "value" : "Steigt schnell"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rising fast"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11478,6 +11922,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Steigt sehr schnell"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rising very fast"
           }
         },
         "es" : {
@@ -11635,6 +12085,12 @@
             "value" : "Einige der eingegebenen Werte liegen außerhalb dessen, was normalerweise für die meisten Menschen empfohlen wird."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Some of the values you have entered are outside of what is typically recommended for most people."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11686,7 +12142,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sommige van de waarden die u hebt ingevoerd vallen buiten wat algemeen wordt aanbevolen."
+            "value" : "Sommige van de waarden die je hebt ingevoerd vallen buiten wat algemeen wordt aanbevolen."
           }
         },
         "pl" : {
@@ -11782,6 +12238,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unterbrochen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suspended"
           }
         },
         "es" : {
@@ -11939,6 +12401,12 @@
             "value" : "Temporäre Basalrate"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temp Basal"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12086,6 +12554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Senke Deinen Blutzuckerziel vor einer Mahlzeit vorübergehend ab, um Blutzuckerspitzen nach der Mahlzeit auszugleichen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporarily lower your glucose target before a meal to impact post-meal glucose spikes."
           }
         },
         "es" : {
@@ -12237,6 +12711,12 @@
             "value" : "Erhöhe Dein Blutzuckerziel vorübergehend vor, während oder nach körperlicher Aktivität, um das Risiko von Ereignissen mit niedrigem Blutzucker zu verringern."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporarily raise your glucose target before, during, or after physical activity to reduce the risk of low glucose events."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12384,6 +12864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der eingegebene Wert liegt über dem, was normalerweise für die meisten Menschen empfohlen wird."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The value you have entered is higher than what is typically recommended for most people."
           }
         },
         "es" : {
@@ -12535,6 +13021,12 @@
             "value" : "Der eingegebene Wert liegt unter dem, was normalerweise für die meisten Menschen empfohlen wird."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The value you have entered is lower than what is typically recommended for most people."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12684,6 +13176,12 @@
             "value" : "Die eingegebenen Werte liegen außerhalb der für die meisten Menschen empfohlenen Werte."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The values you have entered are outside of what is typically recommended for most people."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12735,7 +13233,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sommige van de waarden die u hebt ingevoerd vallen buiten wat algemeen wordt aanbevolen."
+            "value" : "Sommige van de waarden die je hebt ingevoerd vallen buiten wat algemeen wordt aanbevolen."
           }
         },
         "pl" : {
@@ -12825,6 +13323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : " IE"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U"
           }
         },
         "es" : {
@@ -12976,6 +13480,12 @@
             "value" : "IE/Std"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U/hr"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13125,6 +13635,12 @@
             "value" : "Unsichere Abgabe"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uncertain Delivery"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13272,6 +13788,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einheit"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unit"
           }
         },
         "es" : {
@@ -13429,6 +13951,12 @@
             "value" : "Einheit/Std."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unit/hour"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13582,6 +14110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einheiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Units"
           }
         },
         "es" : {
@@ -13739,6 +14273,12 @@
             "value" : "Einheiten/Stunde"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Units/hour"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13894,6 +14434,12 @@
             "value" : "Update verfügbar"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update Available"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14041,6 +14587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Training"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workout"
           }
         },
         "es" : {
@@ -14198,6 +14750,12 @@
             "value" : "Deine Basalrate ist die Anzahl der Einheiten pro Stunde, die Du verwenden möchtest, um Deinen Hintergrund-Insulinbedarf zu decken."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Basal Rate of insulin is the number of units per hour that you want to use to cover your background insulin needs."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14347,6 +14905,12 @@
             "value" : "Dein Kohlenhydratverhältnis ist die Anzahl an Kohlenhydraten in Gramm, die von einer Insulineinheit abgedeckt wird."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Carb Ratio is the number of grams of carbohydrates covered by one unit of insulin."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14494,6 +15058,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deine Insulinempfindlichkeit bezieht sich auf den Abfall des Blutzuckers, der von einer Einheit Insulin erwartet wird."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Insulin Sensitivities refer to the drop in glucose expected from one unit of insulin."
           }
         },
         "es" : {

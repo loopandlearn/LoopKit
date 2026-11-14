@@ -28,6 +28,12 @@
             "value" : "Basalrate"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basal Rates"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "KH-Verhältnisse"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carb Ratios"
           }
         },
         "es" : {
@@ -278,6 +290,12 @@
             "value" : "KH"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carbs"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -397,6 +415,12 @@
             "value" : "Korrekturbereich"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correction Range"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -508,6 +532,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Diagnosedaten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diagnostic"
           }
         },
         "es" : {
@@ -635,6 +665,12 @@
             "value" : "Gib die 6-stellige Pumpen-ID ein"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter the 6-digit pump ID"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -754,6 +790,12 @@
             "value" : "Erzeuge Daten"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generate Data"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -865,6 +907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Insulinempfindlichkeit"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulin Sensitivity"
           }
         },
         "es" : {
@@ -992,6 +1040,12 @@
             "value" : "Pumpen-ID"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pump ID"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1117,6 +1171,12 @@
             "value" : "Reservoir"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reservoir"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1234,6 +1294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zurücksetzen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset"
           }
         },
         "es" : {
@@ -1473,6 +1539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die Pumpen-ID findest Du auf der Rückseite oder am unteren Rand des STATUS / Esc-Bildschirms. Dies ist der numerische Teil der Seriennummer (angezeigt als SN oder S/N)."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The pump ID can be found printed on the back, or near the bottom of the STATUS/Esc screen. It is the strictly numerical portion of the serial number (shown as SN or S/N)."
           }
         },
         "es" : {
